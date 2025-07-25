@@ -282,7 +282,9 @@ color: rgb(0, 0, 0)!important;
 }
 
 
-
+.flower-plants-sec{
+overflow: initial;
+}
 
 /* responsive */
 @media screen and (max-width: 992px) {
@@ -326,6 +328,9 @@ color: rgb(0, 0, 0)!important;
     }
     .ftr-cntlr{
     flex-direction: column;
+}
+.trusted-seller img{
+    width: 100px;
 }
 }
 
