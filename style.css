@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+section{
+    overflow: hidden;
+}
 a{
     display: inline-block;
 }
@@ -30,6 +33,7 @@ body{
     max-width: 1140px;
     width: 100%;
     margin: auto;
+    padding: 0 20px;
 }
 .d-flex{
     display: flex;
@@ -90,7 +94,7 @@ color: rgb(0, 0, 0)!important;
     text-align: center;
     padding-top: 100px;
 }
-.our-plant-sec h1{
+.our-plant-sec h2{
     margin-bottom: 12px;
 }
 .our-plant-sec h1 span{
@@ -275,4 +279,58 @@ color: rgb(0, 0, 0)!important;
 }
 .twitter{
     margin-top: 10px;
+}
+
+
+
+
+/* responsive */
+@media screen and (max-width: 992px) {
+    .our-plant-sec-cntlr ul{
+            grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .latest-deal-sec p{
+        width: 100%;
+    }
+    .hdr-menu{
+        display: none;
+    }
+    .bnr-cntlr{
+        flex-direction: column;
+    }
+    .bnr-lft{
+        order: 2;
+    }
+    .bnr-rgt{
+        order: 1;
+        padding-bottom: 30px;
+    }
+    .our-plant-sec-cntlr ul{
+            grid-template-columns: repeat(2, 1fr);
+    }
+    .flower-plants-sec-cntlr{
+        flex-direction: column;
+    }
+    .fl-pl-lft{
+        padding-bottom: 30px;
+        width: 100%;
+    }
+    .fl-pl-rgt{
+        width: 100%;
+    }
+    .latest-deal-sec-cntlr{
+        grid-template-columns: 1fr;
+    }
+    .ftr-cntlr{
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width: 576px) {
+    .our-plant-sec-cntlr ul{
+            grid-template-columns: repeat(1, 1fr);
+    }
 }
