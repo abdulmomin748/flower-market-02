@@ -8,6 +8,19 @@
 a{
     display: inline-block;
 }
+h1,h2,h3,h4,h5,h6{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+h2{
+    font-size: 50px;
+}
+h1 span,h2 span{
+    color: rgb(233, 90, 8);
+    margin-bottom: 13px;  
+    font-size: 50px;
+}
+
 body{
     font-family: "Inter", sans-serif;
     color: rgba(0, 0, 0, 0.5);
@@ -40,7 +53,7 @@ header{
 .hdr-cart{
     display: flex;
     align-items: center;
-    
+    margin-top: -9px
 }
 .hdr-cart a{
 color: rgb(0, 0, 0)!important;  
@@ -56,4 +69,210 @@ color: rgb(0, 0, 0)!important;
     text-decoration: none;
     color: rgb(137, 135, 161);
     list-style-type: none;
+}
+
+.bnr-cntlr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bnr-lft h1,.bnr-lft h1 span{
+    font-family: Noto Serif;
+    font-size: 65px!important;
+    font-weight: 700;
+}
+
+.bnr-lft h1 span{
+    color: rgb(233, 90, 8);
+    margin-bottom: 13px;
+}
+.our-plant-sec{
+    text-align: center;
+    padding-top: 100px;
+}
+.our-plant-sec h1{
+    margin-bottom: 12px;
+}
+.our-plant-sec h1 span{
+    margin-bottom: 35px;
+}
+.our-plant-sec-cntlr{
+    margin-top: 50px;
+}
+.our-plant-sec-cntlr ul{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   margin: 0;
+   padding: 0;
+   gap: 20px;
+}
+.our-plant-sec-cntlr ul li img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.our-plant-sec-cntlr ul li p{
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(17, 17, 17);
+}
+.our-plant-sec-cntlr ul li h3{
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.our-plant-sec-cntlr ul li a{
+    background: rgb(233, 90, 8);
+    width: 100%;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.flower-plants-sec{
+    margin-top: 150px;
+}
+.flower-plants-sec-cntlr{
+    display: flex;
+    justify-content: space-between;
+}
+.fl-pl-lft{
+    width: 50%;
+    margin-right: 59px;
+    position: relative;
+}
+.trusted-seller {
+    position: absolute;
+    top: -80px;
+    right: -80px;
+}
+
+.trusted-seller img {
+    width: 160px;
+}
+.fl-pl-rgt{
+    width: 50%;
+}
+.fl-pl-rgt h2{
+    margin-bottom: 20px;
+}
+.fl-pl-rgt ul li{
+    padding-bottom: 20px;
+}
+.latest-deal-sec{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.latest-deal-sec h2{
+    margin-bottom: 15px;
+}
+.latest-deal-sec{
+    text-align: center;
+}
+.latest-deal-sec p{
+    width: 850px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.latest-deal-sec-cntlr{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 28px;
+}
+.latest-item{
+    position: relative;
+}
+.latest-item div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white !important;
+}
+.latest-item div h4{
+    font-size: 20px;
+     font-weight: 700;
+     margin-bottom: 10px;
+}
+.latest-item div a{
+    font-size: 16px;
+     font-weight: 600;
+}
+.latest-item div h4,.latest-item div a{
+    color: white;
+}
+.latest-item img{
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+}
+.item-large {
+    grid-row: span 2;
+}
+.join-cntlr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+.join-colourful-sec .container{
+    height: 100%;
+}
+.form-cntlr{
+    display: flex;
+}
+.join-cntlr h2{
+    color: rgb(255, 255, 255);
+    font-family: Noto Serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.join-cntlr input[type="email"]{
+    width: 400px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.join-cntlr input[type="submit"]{
+    padding: 15px 56px;
+    background: rgb(233, 90, 8);
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    font-family: Inter;
+}
+.ftr-cntlr{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.footer-left{
+    width: 300px;
+}
+.footer-left p{
+    margin-top: 10px;
+        
+}
+.footer-links li{
+    list-style: none;
+    padding: 20px 0;
+}
+.footer-links li a{
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+}
+.social-icons{
+    display: flex;
+    gap: 20px;
+}
+.twitter{
+    margin-top: 10px;
 }
