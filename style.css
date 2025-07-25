@@ -5,12 +5,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    display: inline-block;
+}
 body{
     font-family: "Inter", sans-serif;
     color: rgba(0, 0, 0, 0.5);
+    background-color: #f9fafc;
 }
 .container{
     max-width: 1140px;
     width: 100%;
     margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+
+header{
+    padding-top: 25px;
+    padding-bottom: 70px;
+}
+.hdr-cntlr{
+    justify-content: space-between;
+}
+
+.hdr-rgt{
+    display: flex;
+    align-items: center;
+}
+.hdr-menu{
+    display: flex;
+}
+.hdr-cart{
+    display: flex;
+    align-items: center;
+    
+}
+.hdr-cart a{
+color: rgb(0, 0, 0)!important;  
+}
+.hdr-cart img{  
+    margin-right: 20px;
+}
+.hdr-menu li{
+    list-style: none;
+    padding: 20px 20px;
+}
+.hdr-menu li a,.hdr-cart a{
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+    list-style-type: none;
 }
