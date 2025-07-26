@@ -72,6 +72,7 @@ color: rgb(0, 0, 0)!important;
     text-decoration: none;
     color: rgb(137, 135, 161);
     list-style-type: none;
+    transition: .5s;
 }
 
 .bnr-cntlr{
@@ -132,8 +133,11 @@ color: rgb(0, 0, 0)!important;
     font-weight: 600;
     color: #fff;
     margin-top: 20px;
+    transition: .5s;
 }
-
+.our-plant-sec-cntlr ul li a:hover{
+    background: rgb(0, 0, 0);
+}
 .flower-plants-sec{
     margin-top: 150px;
 }
@@ -340,7 +344,9 @@ overflow: initial;
   animation: rotating 5s linear infinite;
 
 }
-
+.hdr-menu li a:hover, .hdr-cart a:hover{
+    color: #000;
+}
 
 /* responsive */
 @media screen and (max-width: 992px) {
